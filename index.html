@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto x-men</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="shortcut icon" href="src/img/logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Poppins:wght@200;500&family=Roboto:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+       <img class="logo" src="./src/img/logo.svg" alt="">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ele tem o poder de disparar rajadas ópticas
+                por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los.">
+                    <img src="./src/img/card-ciclope.jpg" alt="Personagem ciclope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Jean Grey tem poderes monstruosos e é coniderada um dos mutantes mais incriveis da história">
+                    <img src="./src/img/card-jean-grey.jpg" alt="Personagem Jean-Grey">
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-name="Jean Grey" data-description="Consegue atravessar as paredes">
+                    <img src="./src/img/card-lince-negra.jpg" alt="Personagem Lince-negra">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto" data-name="Jean Grey" data-description="Tem o poder de controlar os elementos ferro ">
+                    <img src="./src/img/card-magneto.jpg" alt="Personagem Magnto">
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno" data-name="Jean Grey" data-description="pode se teleportar para qualquer lugar">
+                    <img src="./src/img/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-name="Jean Grey" data-description="Tem o poder de controlar a natureza">
+                    <img src="./src/img/card-tempestade.jpg" alt="Personagem Tempestade">
+
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira" data-name="Jean Grey" data-description="Pode absorver os poderes e memórias ao entrar em contato com a pele ">
+                    <img src="./src/img/card-vampira.jpg" alt="Personage vampira">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine" data-name="Jean Grey" data-description="Fator de cura e faro aguçado">
+                    <img src="./src/img/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+
+            <img class="personagem-grande" src="./src/img/card-ciclope.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar rajadas ópticas
+                    por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los.</p>
+            </div>
+
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+
+
+
+</body>
+
+</html>
